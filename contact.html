@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dhiraj Bhattarai - Data Scientist & Writer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Dhiraj Bhattarai</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Writing</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Let's Connect</h1>
+            <p class="subtitle">Open to collaborations, speaking opportunities, and interesting projects</p>
+        </div>
+    </section>
+
+    <!-- Contact Options -->
+    <section class="contact-options">
+        <div class="container">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Schedule a Call</h3>
+                    <p>Book a 30-minute consultation to discuss your project or collaboration ideas</p>
+                    <a href="https://calendly.com/dhirajbhattarai/30min" class="btn btn-primary" target="_blank">
+                        Book Now
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Me</h3>
+                    <p>For detailed inquiries, project proposals, or speaking engagements</p>
+                    <a href="mailto:dhiraj@example.com" class="btn btn-secondary">
+                        dhiraj@example.com
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Quick Chat</h3>
+                    <p>Connect on LinkedIn for professional networking and quick questions</p>
+                    <a href="https://linkedin.com/in/dhirajbhattarai" class="btn btn-outline" target="_blank">
+                        <i class="fab fa-linkedin"></i> Message on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Send a Message</h2>
+                <p>Fill out the form below and I'll get back to you within 24 hours</p>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a topic</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="consulting">Consulting Inquiry</option>
+                            <option value="speaking">Speaking Engagement</option>
+                            <option value="writing">Writing Opportunity</option>
+                            <option value="mentorship">Mentorship Request</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or inquiry..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="newsletter" checked>
+                            <span>Subscribe to monthly data science insights (you can unsubscribe anytime)</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+
+                <div id="form-success" class="form-success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Message Sent Successfully!</h3>
+                    <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What types of projects do you take on?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I specialize in data science projects including: machine learning model development, data visualization dashboards, natural language processing applications, and end-to-end data pipelines. I particularly enjoy projects that involve both technical implementation and clear communication of results.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer mentorship or coaching?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, I offer limited mentorship slots for aspiring data scientists and technical writers. This includes portfolio reviews, career guidance, and technical skill development. Please book a consultation call to discuss mentorship opportunities.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are your rates for consulting?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Rates vary based on project scope, duration, and complexity. I offer both hourly and project-based pricing. After discussing your requirements, I'll provide a detailed proposal with transparent pricing.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly do you respond to inquiries?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I typically respond to emails within 24 hours on weekdays. For urgent matters, LinkedIn messages often get quicker responses. Scheduled calls can usually be booked within 3-5 business days.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you accept guest posts on your blog?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Currently, I'm not accepting guest posts on my personal blog. However, I'm always open to collaborating on articles for other publications. Feel free to reach out with your ideas!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Kathmandu, Nepal</p>
+                    <p class="note">Available for remote work worldwide</p>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Availability</h3>
+                    <p>Monday - Friday</p>
+                    <p>9:00 AM - 6:00 PM NPT</p>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-paperclip"></i>
+                    <h3>Resume & Resources</h3>
+                    <p>
+                        <a href="assets/resumes/dhiraj_resume.pdf" download>Download Resume (PDF)</a>
+                    </p>
+                    <p>
+                        <a href="assets/resumes/dhiraj_cv.pdf" download>Academic CV</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="social-section">
+        <div class="container">
+            <h2>Connect on Social Media</h2>
+            <div class="social-grid">
+                <a href="https://github.com/dhirajbhattarai" class="social-card github" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Code repositories and projects</p>
+                        <span class="handle">@dhirajbhattarai</span>
+                    </div>
+                </a>
+
+                <a href="https://linkedin.com/in/dhirajbhattarai" class="social-card linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional network</p>
+                        <span class="handle">in/dhirajbhattarai</span>
+                    </div>
+                </a>
+
+                <a href="https://medium.com/@dhirajbhattarai" class="social-card medium" target="_blank">
+                    <i class="fab fa-medium"></i>
+                    <div>
+                        <h3>Medium</h3>
+                        <p>Technical writing</p>
+                        <span class="handle">@dhirajbhattarai</span>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/dhirajbhattarai" class="social-card twitter" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <div>
+                        <h3>Twitter</h3>
+                        <p>Data science insights</p>
+                        <span class="handle">@dhirajbhattarai</span>
+                    </div>
+                </a>
+
+                <a href="https://kaggle.com/dhirajbhattarai" class="social-card kaggle" target="_blank">
+                    <i class="fab fa-kaggle"></i>
+                    <div>
+                        <h3>Kaggle</h3>
+                        <p>Datasets and notebooks</p>
+                        <span class="handle">dhirajbhattarai</span>
+                    </div>
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=dhirajbhattarai" class="social-card scholar" target="_blank">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h3>Google Scholar</h3>
+                        <p>Research publications</p>
+                        <span class="handle">View Profile</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/dhirajbhattarai"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/dhirajbhattarai"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@dhirajbhattarai"><i class="fab fa-medium"></i></a>
+                <a href="https://twitter.com/dhirajbhattarai"><i class="fab fa-twitter"></i></a>
+                <a href="https://kaggle.com/dhirajbhattarai"><i class="fab fa-kaggle"></i></a>
+            </div>
+            <p>© 2024 Dhiraj Bhattarai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

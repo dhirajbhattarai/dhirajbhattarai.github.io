@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing | Dhiraj Bhattarai - Data Scientist & Writer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Dhiraj Bhattarai</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Writing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Writing Portfolio</h1>
+            <p class="subtitle">Technical Articles, Tutorials, and Data Science Insights</p>
+        </div>
+    </section>
+
+    <!-- Writing Stats -->
+    <section class="writing-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>85+</h3>
+                    <p>Articles Published</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>500K+</h3>
+                    <p>Total Reads</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>10K+</h3>
+                    <p>Claps/Reactions</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>2.5K+</h3>
+                    <p>Shares</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="featured-articles">
+        <div class="container">
+            <h2>Featured Articles</h2>
+            <div class="featured-grid">
+                <!-- Featured Article 1 -->
+                <div class="featured-card">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="featured-content">
+                        <h3>The Mathematics Behind Gradient Descent</h3>
+                        <p>A deep dive into the optimization algorithm that powers modern machine learning, with intuitive explanations and visualizations.</p>
+                        <div class="article-meta">
+                            <span class="platform"><i class="fab fa-medium"></i> Medium</span>
+                            <span class="read-time"><i class="far fa-clock"></i> 15 min read</span>
+                            <span class="views"><i class="far fa-eye"></i> 45K views</span>
+                        </div>
+                        <div class="article-tags">
+                            <span class="article-tag">Machine Learning</span>
+                            <span class="article-tag">Mathematics</span>
+                            <span class="article-tag">Optimization</span>
+                        </div>
+                        <a href="https://medium.com/@dhirajbhattarai/gradient-descent-mathematics" class="btn btn-secondary" target="_blank">
+                            Read Full Article
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Featured Article 2 -->
+                <div class="featured-card">
+                    <div class="featured-badge">Latest</div>
+                    <div class="featured-content">
+                        <h3>Building Production ML Systems: Lessons Learned</h3>
+                        <p>Practical insights from deploying machine learning models in production environments, covering monitoring, testing, and maintenance.</p>
+                        <div class="article-meta">
+                            <span class="platform"><i class="fab fa-dev"></i> Dev.to</span>
+                            <span class="read-time"><i class="far fa-clock"></i> 12 min read</span>
+                            <span class="views"><i class="far fa-eye"></i> 18K views</span>
+                        </div>
+                        <div class="article-tags">
+                            <span class="article-tag">MLOps</span>
+                            <span class="article-tag">Production</span>
+                            <span class="article-tag">Best Practices</span>
+                        </div>
+                        <a href="https://dev.to/dhirajbhattarai/production-ml-systems" class="btn btn-secondary" target="_blank">
+                            Read Full Article
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Categories -->
+    <section class="article-categories">
+        <div class="container">
+            <h2>Browse by Category</h2>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All Topics</button>
+                <button class="category-btn" data-category="tutorial">Tutorials</button>
+                <button class="category-btn" data-category="theory">Theory</button>
+                <button class="category-btn" data-category="case-study">Case Studies</button>
+                <button class="category-btn" data-category="tools">Tools & Reviews</button>
+                <button class="category-btn" data-category="career">Career Advice</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-grid-section">
+        <div class="container">
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="tutorial tools">
+                    <div class="article-header">
+                        <span class="article-category">Tutorial</span>
+                        <span class="article-date">Mar 15, 2024</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Getting Started with PyTorch Lightning</h3>
+                        <p>A beginner-friendly tutorial on organizing PyTorch code using Lightning for cleaner, more maintainable deep learning projects.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 10 min</span>
+                                <span><i class="far fa-eye"></i> 25K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/pytorch-lightning-tutorial" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card" data-category="case-study">
+                    <div class="article-header">
+                        <span class="article-category">Case Study</span>
+                        <span class="article-date">Feb 28, 2024</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Reducing Fraud with Anomaly Detection</h3>
+                        <p>How we implemented an isolation forest algorithm to detect fraudulent transactions, reducing fraud losses by 65%.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 14 min</span>
+                                <span><i class="far fa-eye"></i> 32K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/fraud-detection-case-study" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card" data-category="theory">
+                    <div class="article-header">
+                        <span class="article-category">Theory</span>
+                        <span class="article-date">Feb 10, 2024</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Understanding Attention Mechanisms</h3>
+                        <p>From seq2seq to transformers: A comprehensive guide to attention mechanisms in deep learning with visual explanations.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 18 min</span>
+                                <span><i class="far fa-eye"></i> 48K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/attention-mechanisms" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card" data-category="career">
+                    <div class="article-header">
+                        <span class="article-category">Career</span>
+                        <span class="article-date">Jan 22, 2024</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Building a Data Science Portfolio That Gets Hired</h3>
+                        <p>Practical advice on creating projects, writing about them, and presenting your work to potential employers.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 12 min</span>
+                                <span><i class="far fa-eye"></i> 56K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/data-science-portfolio-guide" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card" data-category="tools">
+                    <div class="article-header">
+                        <span class="article-category">Tools</span>
+                        <span class="article-date">Jan 5, 2024</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Streamlit vs. Dash: Which One for Your Data App?</h3>
+                        <p>A comprehensive comparison of two popular Python frameworks for building interactive data applications.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 11 min</span>
+                                <span><i class="far fa-eye"></i> 29K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/streamlit-vs-dash" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card" data-category="tutorial">
+                    <div class="article-header">
+                        <span class="article-category">Tutorial</span>
+                        <span class="article-date">Dec 18, 2023</span>
+                    </div>
+                    <div class="article-content">
+                        <h3>Time Series Forecasting with Prophet</h3>
+                        <p>Step-by-step guide to implementing Facebook's Prophet for accurate time series predictions with seasonality handling.</p>
+                        <div class="article-footer">
+                            <div class="article-stats">
+                                <span><i class="far fa-clock"></i> 16 min</span>
+                                <span><i class="far fa-eye"></i> 37K</span>
+                            </div>
+                            <a href="https://medium.com/@dhirajbhattarai/time-series-prophet" class="read-link" target="_blank">
+                                Read <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <i class="fas fa-envelope-open-text"></i>
+                <h2>Stay Updated</h2>
+                <p>Subscribe to receive monthly data science insights, article summaries, and project updates</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="privacy-note">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Platforms -->
+    <section class="writing-platforms">
+        <div class="container">
+            <h2>Also Writing On</h2>
+            <div class="platforms-grid">
+                <a href="https://medium.com/@dhirajbhattarai" class="platform-card" target="_blank">
+                    <i class="fab fa-medium"></i>
+                    <h3>Medium</h3>
+                    <p>Long-form technical articles</p>
+                    <span class="stats">45K followers</span>
+                </a>
+                <a href="https://dev.to/dhirajbhattarai" class="platform-card" target="_blank">
+                    <i class="fab fa-dev"></i>
+                    <h3>Dev.to</h3>
+                    <p>Code tutorials & dev community</p>
+                    <span class="stats">12K followers</span>
+                </a>
+                <a href="https://towardsdatascience.com/@dhirajbhattarai" class="platform-card" target="_blank">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Towards Data Science</h3>
+                    <p>Data science publications</p>
+                    <span class="stats">Featured Writer</span>
+                </a>
+                <a href="https://kaggle.com/dhirajbhattarai/notebooks" class="platform-card" target="_blank">
+                    <i class="fab fa-kaggle"></i>
+                    <h3>Kaggle Notebooks</h3>
+                    <p>Interactive code examples</p>
+                    <span class="stats">Gold Medal</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/dhirajbhattarai"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/dhirajbhattarai"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@dhirajbhattarai"><i class="fab fa-medium"></i></a>
+                <a href="https://twitter.com/dhirajbhattarai"><i class="fab fa-twitter"></i></a>
+                <a href="https://kaggle.com/dhirajbhattarai"><i class="fab fa-kaggle"></i></a>
+            </div>
+            <p>© 2024 Dhiraj Bhattarai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
